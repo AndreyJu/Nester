@@ -5,5 +5,6 @@
     <p>
       <%= link_to 'Add new topic', new_comment_path, class: 'btn btn-primary btn-lg'%>
     </p>
+      <%= comments_tree_for @comments %>
   </div>
 </div>
